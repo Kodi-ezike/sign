@@ -19,16 +19,18 @@ input,textarea{
     border-radius: 5px;
     
 }
-  
 button{
-    padding: 0.5rem;
-    width: 10%;
     background-color: rgb(122, 122, 252);
-}
-textarea{ 
+    border: 1px solid blue;
+    margin-top: 20px;
+    padding: 10px 10px;
+    color: black;
+    font-size: 20px;
     box-sizing: border-box;
-    border: blue;
+    border-radius: 10px;
+    background-size: 400%;
 }
+
 footer{
     margin-bottom: 0px;
     text-align: center;
@@ -40,11 +42,4 @@ padding: 0.5rem;
 border-radius: 20%;
 box-sizing: border-box;
 margin-top: 0.2rem;
-}
-@media only screen and (min-width:320px){
-    button{
-        padding: 0.5rem;
-        width: 30%;
-        background-color: rgb(122, 122, 252);
-    }
 }
