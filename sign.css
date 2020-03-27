@@ -1,0 +1,43 @@
+body{background-image:url(background.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    padding: 1rem;
+    margin-bottom: 0px;
+    margin-right: 5px;
+    color: white;
+}
+h1{font-family: 'Times New Roman', Times, serif;}
+p{color: white;}
+body{
+    font-size: 14pt;
+}
+
+input,textarea{
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 5px;
+    
+}
+  
+button{
+    padding: 0.5rem;
+    width: 10%;
+    background-color: rgb(122, 122, 252);
+}
+textarea{ 
+    box-sizing: border-box;
+    border: blue;
+}
+footer{
+    margin-bottom: 0px;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+}
+form{
+padding: 0.5rem;
+border-radius: 20%;
+box-sizing: border-box;
+margin-top: 0.2rem;
+}
